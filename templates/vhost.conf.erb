@@ -1,0 +1,6 @@
+server{
+listen <%= @port%> ;
+server_name <%= @servername %> ;
+location /{ root  <%= @document_root %> ;
+            index  index.html index.htm; }
+}
